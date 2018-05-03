@@ -99,7 +99,7 @@ export default {
                     }
                 });
             } else {
-                MessageBox('提示', '密码必须6位数字与字母组合');
+                MessageBox('提示', '密码长度在6-18位之间');
             }
         },
     },

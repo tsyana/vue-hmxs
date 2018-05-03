@@ -8,13 +8,13 @@ const baseConfig = {
         baseUrl: 'http://star-test.cdpyun.com:88/ws.php/customization/hema/ThirdPartyApiService/',
     },
     uat: {
-        baseUrl: 'http://star-test.cdpyun.com:88/ws.php/customization/hema/ThirdPartyApiService/',
+        baseUrl: 'http://star-hema-uat.cdpyun.com/ws.php/customization/hema/ThirdPartyApiService/',
     },
     pre: {
         baseUrl: 'http://101.37.146.44/ws.php/customization/hema/ThirdPartyApiService/',
     },
     production: {
-        baseUrl: 'http://star.cdpyun.com/ws.php/customization/hema/ThirdPartyApiService/',
+        baseUrl: 'http://star-hema.cdpyun.com/ws.php/customization/hema/ThirdPartyApiService/',
     },
 };
 

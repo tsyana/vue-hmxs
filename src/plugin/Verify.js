@@ -9,11 +9,15 @@ export default{
             return true;
         };
         Vue.prototype.verifyPassword = function (password) { // eslint-disable-line
-            const myreg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6}$/;
-            if (!myreg.test(password)) {
+            if (password.length < 6 || password.length > 18) {
                 return false;
             }
             return true;
+            // const myreg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6}$/;
+            // if (!myreg.test(password)) {
+            //     return false;
+            // }
+            // return true;
         };
         Vue.prototype.verifyID = function (password) { // eslint-disable-line
             let pass;
